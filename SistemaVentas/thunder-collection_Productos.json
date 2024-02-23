@@ -1,0 +1,107 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Productos",
+    "dateExported": "2024-02-23T07:18:55.413Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "6a9761ac-9620-42f8-9de8-61abe6e5e02b",
+            "colId": "9000f229-d4f6-4288-9934-77fa251909bd",
+            "containerId": "",
+            "name": "NuevoProducto",
+            "url": "localhost:2000/NuevoProducto",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-22T20:30:17.353Z",
+            "modified": "2024-02-23T00:02:00.415Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nombre",
+                        "value": "Telefono Lg k11"
+                    },
+                    {
+                        "name": "precio",
+                        "value": "1500"
+                    },
+                    {
+                        "name": "categoria",
+                        "value": "65d7d099fdafd545b397d1af"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "7631eabc-efb5-4b5e-b9cd-23f1d1e23367",
+            "colId": "9000f229-d4f6-4288-9934-77fa251909bd",
+            "containerId": "",
+            "name": "ActualizarProducto",
+            "url": "localhost:2000/ActualizarProducto/65d7af903efc589ed5499261",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-02-22T20:48:18.186Z",
+            "modified": "2024-02-22T22:47:23.923Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "categoria",
+                        "value": "65d7b2efe49e5c992432db4d"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "c7b58632-aa80-4497-ac87-ab7059a7272d",
+            "colId": "9000f229-d4f6-4288-9934-77fa251909bd",
+            "containerId": "",
+            "name": "BuscarProducto",
+            "url": "localhost:2000/buscarProducto/65d7af903efc589ed5499261",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-02-22T22:49:14.495Z",
+            "modified": "2024-02-22T22:49:52.545Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f0d865e3-5c61-406c-bc5b-92f2b124a36b",
+            "colId": "9000f229-d4f6-4288-9934-77fa251909bd",
+            "containerId": "",
+            "name": "ElliminarProducto",
+            "url": "localhost:2000/EliminarProducto/65d7d0a5fdafd545b397d1b1",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-22T22:52:49.763Z",
+            "modified": "2024-02-22T22:54:55.117Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "fbde6771-c3a8-42fb-bbc7-f7139818ce60",
+            "colId": "9000f229-d4f6-4288-9934-77fa251909bd",
+            "containerId": "",
+            "name": "ListarProductos",
+            "url": "localhost:2000/ListarProductos",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-02-22T22:55:30.015Z",
+            "modified": "2024-02-22T22:55:59.484Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Usuario",
+    "dateExported": "2024-02-23T23:25:13.566Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "2ea43fa5-bde2-4f0f-8030-61daa5ff030d",
+            "colId": "005016a4-946a-436d-a998-6037f1fd9cf7",
+            "containerId": "",
+            "name": "RegistroUsuario",
+            "url": "localhost:2000/Registro",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-23T18:13:43.237Z",
+            "modified": "2024-02-23T19:57:53.180Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nombre",
+                        "value": "Carlos"
+                    },
+                    {
+                        "name": "correo",
+                        "value": "CarlosCars@gmail.com"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "username",
+                        "value": "RayoMaqueen"
+                    },
+                    {
+                        "name": "telefono",
+                        "value": "23453783"
+                    },
+                    {
+                        "name": "direccion",
+                        "value": "Zona 10  calle A"
+                    },
+                    {
+                        "name": "role",
+                        "value": "USER"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "dbbdca08-bada-44ae-9f22-66a50dc32c93",
+            "colId": "005016a4-946a-436d-a998-6037f1fd9cf7",
+            "containerId": "",
+            "name": "LooginUsuario",
+            "url": "localhost:2000/Login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-23T22:54:52.202Z",
+            "modified": "2024-02-23T23:12:52.053Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "correo",
+                    "value": "",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "Jrosselin",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "password",
+                        "value": "Megacreeper1$"
+                    },
+                    {
+                        "name": "correo",
+                        "value": "joshuacorzo3@gmail.com"
+                    }
+                ]
+            },
+            "tests": []
+        }
+    ]
+}
