@@ -9,7 +9,9 @@ import { config } from "dotenv"
 import ProductRoutes from '../src/productos/producto.routes.js'
 import CategoriaRoutes  from '../src/categorias/categorias.routes.js'
 import UsuarioRoutes from '../src/usuario/usuario.routes.js'
-
+import CarritoRoutes from '../src/Carrito/carrito.routes.js'
+import ComprarRoutes from '../src/Compra/compra.routes.js'
+import FacturaRoutes from '../src/Factura/factura.routes.js'
 
 //Configuraciones
 const app = express() //Crear el servidor
@@ -27,6 +29,9 @@ app.use(morgan('dev'))
 app.use(ProductRoutes)
 app.use(CategoriaRoutes)
 app.use(UsuarioRoutes)
+app.use(CarritoRoutes)
+app.use(ComprarRoutes)
+app.use(FacturaRoutes)
 
 //Levantar el servidor
 export const initServer = () => {

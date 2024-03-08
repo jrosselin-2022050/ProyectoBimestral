@@ -20,3 +20,18 @@ export const verContra = async (password, hash) => {
         return err
     }
 }
+
+export const verActualizacion = (data, IdUsuario)=>{
+    if(IdUsuario){
+        if(
+            Object.entries(data).length == 0 || 
+            data.password ||
+            data.password == '' ||
+            data.role ||
+            data.role == ''
+        )return false
+        return true
+    }else{
+        return false
+    }
+}
